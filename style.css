@@ -5,17 +5,15 @@ body {
 .main-container {
     font-family: 'Open Sans', sans-serif;
 
-    max-width: 1025px;
-    margin: 0 auto;
 
     display: grid;
-    grid-template-columns: 30% 70%;
-    grid-template-rows: 800px;
+    grid-template-columns: 325px auto;
 }
 
 
 .applicant-list,
 .applicant-details {
+    max-height: 800px;
     overflow-y: auto;
     overflow-x: hidden;
 }
@@ -48,12 +46,12 @@ body {
 
 .applicant-details .placeholder {
     text-align: center;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
 }
 
 .applicant-details .placeholder img {
-    width: 22rem;
-    margin-top: 36%;
+    width: 400px;
+    margin-top: 200px;
 }
 
 .applicant-details {
@@ -116,6 +114,15 @@ body {
 
     .applicant-details {
         padding: 10% 8%;
-    }    
+    }
+
+    .applicant-details .placeholder img {
+        width: 250px;
+        margin-top: 110px;
+    }
+
+    .applicant-details .placeholder {
+        font-size: 1rem;
+    }
 }
     
