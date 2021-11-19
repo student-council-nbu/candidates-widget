@@ -128,5 +128,9 @@ body {
     .applicant-details .placeholder {
         font-size: 1rem;
     }
+
+    .applicant-details .info .motivation, .details {
+        font-size: 0.8rem;
+    }
 }
     
