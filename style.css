@@ -16,7 +16,8 @@ body {
 
 .applicant-list,
 .applicant-details {
-    overflow: scroll;
+    overflow-y: auto;
+    overflow-x: hidden;
 }
 
 .applicant-list {
