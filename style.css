@@ -47,12 +47,12 @@ body {
 
 .applicant-details .placeholder {
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
 }
 
 .applicant-details .placeholder img {
     width: 400px;
-    margin-top: 200px;
+    margin-top: 260px;
 }
 
 .applicant-details {
@@ -92,8 +92,8 @@ body {
 
 .applicant-details .info h6 {
     margin: 0;
-    font-size: 0.8rem;
-    margin-bottom: 25px;
+    font-size: 0.9rem;
+    margin-bottom: 20px;
     font-weight: 300;
     color: #727272;
 }
@@ -109,14 +109,14 @@ body {
     
     .main-container {
         grid-template-columns: 100%;
-        grid-template-rows: 250px;
     }
 
     .applicant-list {
-        max-height: 250px;
+        max-height: 200px;
     }
 
     .applicant-details {
+        max-height: 400px;
         padding: 10% 8%;
     }
 
@@ -126,11 +126,11 @@ body {
     }
 
     .applicant-details .placeholder {
-        font-size: 1rem;
+        font-size: 0.9rem;
     }
 
     .applicant-details .info .motivation, .details {
-        font-size: 0.8rem;
+        font-size: 0.9rem;
     }
 }
     
