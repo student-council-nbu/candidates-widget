@@ -30,6 +30,7 @@ body {
     margin: 15px 0;
     margin-bottom: 0;
     padding: 12px 15px;
+    font-size: 0.9rem;
 }
 
 .applicant-list .applicant:hover {
@@ -96,6 +97,10 @@ body {
     margin-bottom: 25px;
     font-weight: 300;
     color: #727272;
+}
+
+.applicant-details .info .motivation, .details {
+    font-size: 0.9rem;
 }
 
 @media screen and (max-width: 700px) {
