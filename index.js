@@ -6,6 +6,7 @@ $(() => {
     $detailsInfo.hide();
 
     $.get('data/applicants.json').then(applicants => {
+        applicants = applicants.sort((a, b) => a.name.localeCompare(b.name))
         const $shadowList = $('<div>');
 
         applicants.forEach(applicant => {
@@ -46,8 +47,8 @@ $(() => {
             $applicantImage.attr('src', `images/${applicant.id}.jpg`);
             $applicantName.text(applicant.name);
             $applicantProgram.text(applicant.program);
-            $applicantMotivation.text(applicant.motivation);
-            $applicantDetails.text(applicant.details);           
+            $applicantMotivation.html(applicant.motivation);
+            $applicantDetails.html(applicant.details);
         });
     })
 })
